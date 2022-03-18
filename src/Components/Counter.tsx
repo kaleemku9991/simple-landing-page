@@ -31,9 +31,26 @@ const check =useEffect(() => {
   return(
     <div>
       <div className="app-main">
-      <p>You Click  {count}</p>
-      <Button variant="contained" onClick={ ()=> setCount(count+1)}>Click me</Button>
-      <h2>{advice}</h2>
+      <h2 className="advice-h2">{advice}</h2>
+
+      <Button variant="contained" onClick={ ()=> {
+         const url = "https://api.adviceslip.com/advice";
+
+         const fetchData = async () => {
+             try {
+                 const response = await fetch(url);
+                 const json = await response.json();
+                 console.log(json.slip.advice);
+                 setAdvice(json.slip.advice);
+             } catch (error) {
+                 console.log("error", error);
+             }
+         };
+     
+         fetchData();
+      }}>Click me</Button>
+
+
       </div>
     </div>
  );

@@ -1,14 +1,16 @@
 import * as React from 'react';
-import MyForm from "./MyForm";
-import Counter from "./Counter";
-import ChartContainer from "./Chart";
+import MyForm from "././Components/MyForm";
+import Counter from "././Components/Counter";
+import ChartContainer from "././Components/Chart";
+import Appbar from "././Components/Appbar";
 
 function App() {
   return (
     <div style={{textAlign:"center"}}>
+      <Appbar/>
      <Counter/>
-     <MyForm/>
      <ChartContainer/>
+     <MyForm/>
     </div>
   );
 }

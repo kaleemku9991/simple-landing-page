@@ -35,6 +35,7 @@ p{
 
 .nav {
   height: 50px;
+  display: block !important;
   width: 100%;
   background: #373B44;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
@@ -59,7 +60,7 @@ p{
 
 .nav > .nav-links {
   display: inline;
-  float: right;
+  float: right !important;
   font-size: 18px;
 }
 
@@ -320,7 +321,33 @@ textarea:valid+label {
 }
 
 
-.layer2-main, .layer2-main img{
-  width: 100%;
-  height: 80%;
+.layer2-main{
+  background-image: url("../images/section5-pic.png"); /* The image used */
+ /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-color: rgb(37, 36, 36);
+  opacity: 0.9;
+}
+.layer2-text{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 190px;
+    background-color: #656668;
+    opacity: 0.8;
+
+}
+.layer2-text p{
+ color: rgb(255, 255, 255);
+ font-size: 18px;
+}
+.layer2-text button{
+  color: white;
+  background-color: orange;
+  padding: 15px 30px;
+  border: none;
+
 }

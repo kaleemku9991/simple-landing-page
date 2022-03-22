@@ -1,5 +1,7 @@
 import React from "react";
 import  "./Footer.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
@@ -12,7 +14,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-xl-4 col-md-4 mb-30">
                         <div className="single-cta">
-                            <i className="fas fa-map-marker-alt"></i>
+                        <FontAwesomeIcon icon={['fab', 'google']} />
                             <div className="cta-text">
                                 <h4>Find us</h4>
                                 <span>1010 Avenue, sw 54321, chandigarh</span>

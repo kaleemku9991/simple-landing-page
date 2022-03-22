@@ -33,6 +33,11 @@ font-size: 15px;
 position: relative;
 z-index: 2;
 }
+.row{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
 .footer-pattern img {
 position: absolute;
 top: 0;

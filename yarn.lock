@@ -3698,7 +3698,7 @@
   "resolved" "https://registry.npmjs.org/check-types/-/check-types-11.1.2.tgz"
   "version" "11.1.2"
 
-"chokidar@^3.4.2", "chokidar@^3.5.3":
+"chokidar@^3.4.2", "chokidar@^3.5.3", "chokidar@>=3.0.0 <4.0.0":
   "integrity" "sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw=="
   "resolved" "https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz"
   "version" "3.5.3"
@@ -3730,7 +3730,7 @@
   "resolved" "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz"
   "version" "1.2.2"
 
-"classnames@^2.3.1":
+"classnames@^2.2.5", "classnames@^2.3.1":
   "integrity" "sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA=="
   "resolved" "https://registry.npmjs.org/classnames/-/classnames-2.3.1.tgz"
   "version" "2.3.1"
@@ -5788,6 +5788,11 @@
   "integrity" "sha512-lk7UNmSbAukB5B6dh9fnh5D0bJTOFKxVg2cyJWTYrWRfhLrLMBquONcUs3aFq507hNoIZEDDh8lb8UtOizSMhA=="
   "resolved" "https://registry.npmjs.org/immer/-/immer-9.0.12.tgz"
   "version" "9.0.12"
+
+"immutable@^4.0.0":
+  "integrity" "sha512-zIE9hX70qew5qTUjSS7wi1iwj/l7+m54KWU247nhM3v806UdGj1yDndXj+IOYxxtW9zyLI+xqFNZjTuDaLUqFw=="
+  "resolved" "https://registry.npmjs.org/immutable/-/immutable-4.0.0.tgz"
+  "version" "4.0.0"
 
 "import-fresh@^3.0.0", "import-fresh@^3.1.0":
   "integrity" "sha512-6e1q1cnWP2RXD9/keSkxHScg508CdXqXWgWBaETNhyuBFz+kUZlKboh+ISK+bU++DmbHimVBrOz/zzPe0sZ3sQ=="
@@ -8347,7 +8352,7 @@
     "react-is" "^16.3.2"
     "warning" "^4.0.0"
 
-"prop-types@^15.6.0", "prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@^15.8.1":
+"prop-types@^15.5.8", "prop-types@^15.6.0", "prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -8496,6 +8501,13 @@
     "object-assign" "^4.1.1"
     "scheduler" "^0.20.2"
 
+"react-easy-swipe@^0.0.21":
+  "integrity" "sha512-OeR2jAxdoqUMHIn/nS9fgreI5hSpgGoL5ezdal4+oO7YSSgJR8ga+PkYGJrSrJ9MKlPcQjMQXnketrD7WNmNsg=="
+  "resolved" "https://registry.npmjs.org/react-easy-swipe/-/react-easy-swipe-0.0.21.tgz"
+  "version" "0.0.21"
+  dependencies:
+    "prop-types" "^15.5.8"
+
 "react-error-overlay@^6.0.10":
   "integrity" "sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA=="
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.10.tgz"
@@ -8530,6 +8542,15 @@
   "integrity" "sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A=="
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
   "version" "0.11.0"
+
+"react-responsive-carousel@^3.2.23":
+  "integrity" "sha512-pqJLsBaKHWJhw/ItODgbVoziR2z4lpcJg+YwmRlSk4rKH32VE633mAtZZ9kDXjy4wFO+pgUZmDKPsPe1fPmHCg=="
+  "resolved" "https://registry.npmjs.org/react-responsive-carousel/-/react-responsive-carousel-3.2.23.tgz"
+  "version" "3.2.23"
+  dependencies:
+    "classnames" "^2.2.5"
+    "prop-types" "^15.5.8"
+    "react-easy-swipe" "^0.0.21"
 
 "react-scripts@5.0.0":
   "integrity" "sha512-3i0L2CyIlROz7mxETEdfif6Sfhh9Lfpzi10CtcGs1emDQStmZfWjJbAIMtRD0opVUjQuFWqHZyRZ9PPzKCFxWg=="
@@ -8931,6 +8952,15 @@
     "klona" "^2.0.4"
     "neo-async" "^2.6.2"
 
+"sass@^1.3.0", "sass@^1.49.9":
+  "integrity" "sha512-YlYWkkHP9fbwaFRZQRXgDi3mXZShslVmmo+FVK3kHLUELHHEYrCmL1x6IUjC7wLS6VuJSAFXRQS/DxdsC4xL1A=="
+  "resolved" "https://registry.npmjs.org/sass/-/sass-1.49.9.tgz"
+  "version" "1.49.9"
+  dependencies:
+    "chokidar" ">=3.0.0 <4.0.0"
+    "immutable" "^4.0.0"
+    "source-map-js" ">=0.6.2 <2.0.0"
+
 "sax@~1.2.4":
   "integrity" "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
   "resolved" "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
@@ -9169,7 +9199,7 @@
   "resolved" "https://registry.npmjs.org/source-list-map/-/source-list-map-2.0.1.tgz"
   "version" "2.0.1"
 
-"source-map-js@^1.0.1", "source-map-js@^1.0.2":
+"source-map-js@^1.0.1", "source-map-js@^1.0.2", "source-map-js@>=0.6.2 <2.0.0":
   "integrity" "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw=="
   "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   "version" "1.0.2"

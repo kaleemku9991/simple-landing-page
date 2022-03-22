@@ -227,7 +227,7 @@ img {
   user-select: none;
 }
 
-img:hover {
+/* img:hover {
   transform: scale(1.1, 1.1);
 }
 
@@ -237,7 +237,7 @@ img:active {
     hue-rotate(220deg)
     drop-shadow(2px 4px 4px #222)
     sepia(0.3);
-}
+} */
 
 .form-item {
   position: relative;
@@ -317,8 +317,10 @@ textarea:valid+label {
     padding-top: 30px;
   }
   
-  img {
-    width: 38px;
-    height: 38px;
-  }
+}
+
+
+.layer2-main, .layer2-main img{
+  width: 100%;
+  height: 80%;
 }

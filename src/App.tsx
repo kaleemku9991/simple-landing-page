@@ -9,7 +9,7 @@ import Footer from "././Components/Footer";
 
 function App() {
   return (
-    <div style={{textAlign:"center"}}>
+    <div style={{textAlign:"center",maxWidth:"1350px",overflow:"hidden",margin:"0 auto"}}>
       <Appbar/>
       <Layer2/>
      <Counter/>

@@ -2,9 +2,9 @@ import react from "react";
 import Slider from "react-elastic-carousel";
 import Item from "./Item";
 import "./Caraousal.css";
-import section2pic1 from '../images/section2-pic2.png';
-import section2pic2 from '../images/section2-pic3.png';
-import section2pic3 from '../images/section2-pic4.png';
+import section2pic1 from '../images/pic1.png';
+import section2pic2 from '../images/pic2.png';
+import section2pic3 from '../images/pic3.png';
 
 // import "./Caraousal.scss";
 // import style from './mystyle.module.css'; 

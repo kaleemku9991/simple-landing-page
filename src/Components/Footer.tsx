@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-xl-4 col-md-4 mb-30">
                         <div className="single-cta">
-                        <FontAwesomeIcon icon={['fab', 'google']} />
+                        <i className="fas fa-map-marker-alt"></i>
                             <div className="cta-text">
                                 <h4>Find us</h4>
                                 <span>1010 Avenue, sw 54321, chandigarh</span>

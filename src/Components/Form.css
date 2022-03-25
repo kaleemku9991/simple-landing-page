@@ -75,6 +75,14 @@ p{
 .nav > .nav-links > a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
+.nav-links button{
+  color: white;
+    background-color: orange;
+    padding: 10px 25px;
+    padding-top: 12px;
+    border: none;
+    cursor: pointer;
+}
 
 .nav > #nav-check {
   display: none;

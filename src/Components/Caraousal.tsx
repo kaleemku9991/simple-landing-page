@@ -22,14 +22,14 @@ function Caraousal() {
      <h1 style={{ textAlign: "center",padding:"20px",color:"white",marginTop:"5px" }}>Here Our Team Members</h1>
       <div className="caraousal">
         <Slider breakPoints={breakPoints} className="slider">
-          <Item className="item"><img src={section2pic1}/></Item>
-          <Item className="item"><img src={section2pic2}/></Item>
-          <Item className="item"><img src={section2pic3}/></Item>
-          <Item className="item"><img src={section2pic1}/></Item>
-          <Item className="item"><img src={section2pic2}/></Item>
-          <Item className="item"><img src={section2pic3}/></Item>
-          <Item className="item"><img src={section2pic1}/></Item>
-          <Item className="item"><img src={section2pic2}/></Item>
+          <Item className="item"><img src={section2pic1} alt="caraousal image"/></Item>
+          <Item className="item"><img src={section2pic2} alt="caraousal image"/></Item>
+          <Item className="item"><img src={section2pic3} alt="caraousal image"/></Item>
+          <Item className="item"><img src={section2pic1} alt="caraousal image"/></Item>
+          <Item className="item"><img src={section2pic2} alt="caraousal image"/></Item>
+          <Item className="item"><img src={section2pic3} alt="caraousal image"/></Item>
+          <Item className="item"><img src={section2pic1} alt="caraousal image"/></Item>
+          <Item className="item"><img src={section2pic2} alt="caraousal image"/></Item>
         </Slider>
       </div>
     </div>

@@ -17,7 +17,7 @@ import 'hammerjs';
 const categories = [2002, 2003, 2004];
 const series = [
     {
-        name: "India",
+        name: "Pakistan",
         data: [3.907, 7.943, 7.848]
     },
     {
@@ -48,14 +48,14 @@ const areaData = [
         data: [1.743, 1.295, 1.175]
     },
     {
-        name: "India",
+        name: "Pakistan",
         data: [0.907, 0.943, 0.848]
     }
 ]
 
 const pieData = [
     {
-        name: "India",
+        name: "Pakistan",
         share: 0.24
     },
     {

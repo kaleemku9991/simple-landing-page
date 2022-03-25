@@ -2,7 +2,6 @@ import react from "react";
 import React, { useState , useEffect} from 'react';
 import "./Form.css";
 import { Button } from "@mui/material";
-import logo from '../images/section5-pic.png';
 
 
 
